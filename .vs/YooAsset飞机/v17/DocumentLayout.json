@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\bgpanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\bgpanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|e:\\unity game\\day class\\yooasset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\bgcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\bgcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\shoppanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\shoppanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|e:\\unity game\\day class\\yooasset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\bagpanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\bagpanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\tippanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\tippanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\bagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\bagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\tipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\controller\\tipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\uibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\uibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\view\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\model\\modelmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\model\\modelmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\model\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\model\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\uitool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\uitool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\singele\\singlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\singele\\singlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|E:\\unity game\\day class\\YooAsset\u98DE\u673A\\assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\message\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\space shooter\\gamescript\\runtime\\ui\\mvc\\message\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Test.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Test.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Test.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:29:17.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TipController.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\TipController.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\TipController.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\TipController.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\TipController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:57:49.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BagController.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BagController.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BagController.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BagController.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:57:30.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\ShopController.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\ShopController.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\ShopController.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\ShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:57:08.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BGController.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BGController.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BGController.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BGController.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Controller\\BGController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:56:31.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TipPanView.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\TipPanView.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\TipPanView.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\TipPanView.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\TipPanView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:54:03.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BagPanView.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BagPanView.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BagPanView.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BagPanView.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BagPanView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:53:42.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopPanView.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\ShopPanView.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\ShopPanView.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\ShopPanView.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\ShopPanView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:53:08.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BGPanView.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BGPanView.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BGPanView.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BGPanView.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\BGPanView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:46:56.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UITool.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\UITool.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\UITool.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\UITool.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\UITool.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:44:00.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIManager.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:43:58.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UIBase.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIBase.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIBase.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\View\\UIBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:43:55.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SingleManager.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Singele\\SingleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Singele\\SingleManager.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Singele\\SingleManager.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Singele\\SingleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:43:53.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModelManger.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelManger.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelManger.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelManger.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:43:33.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ModelBase.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelBase.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelBase.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Model\\ModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:43:31.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MessageManager.cs",
+              "DocumentMoniker": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Message\\MessageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Message\\MessageManager.cs",
+              "ToolTip": "E:\\unity game\\day class\\YooAsset\u98DE\u673A\\Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Message\\MessageManager.cs",
+              "RelativeToolTip": "Assets\\Samples\\Space Shooter\\GameScript\\Runtime\\UI\\MVC\\Message\\MessageManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:43:12.78Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
