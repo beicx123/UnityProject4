@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C312BB4D-6568-73ED-C0D9-C740449B08F6}</ProjectGuid>
+    <ProjectGuid>{7327A3A0-3ECD-B731-A55B-3CE67F14EC69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1032,19 +1032,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{ED15E0CE-3988-E25B-5758-E51A6B7A1DEB}</Project>
+      <Project>{56D5EB17-B156-295E-1457-55895CF61F5C}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="UniFramework.Utility.csproj">
-      <Project>{07B80547-0572-3E27-E12A-4E8CAEF04A57}</Project>
+      <Project>{753363A6-D76D-C135-D0B7-EF7D65E79033}</Project>
       <Name>UniFramework.Utility</Name>
     </ProjectReference>
     <ProjectReference Include="UniFramework.Machine.csproj">
-      <Project>{CFDDCD40-45A7-C109-144C-B8917AD5D1EF}</Project>
+      <Project>{A0D9570D-8198-FD61-B1C6-F5ABDF3CA476}</Project>
       <Name>UniFramework.Machine</Name>
     </ProjectReference>
     <ProjectReference Include="UniFramework.Event.csproj">
-      <Project>{64AB1C13-0557-0BF2-8759-E2536BBEEEEA}</Project>
+      <Project>{6BB1411C-8913-0995-D520-5C463A85A8EF}</Project>
       <Name>UniFramework.Event</Name>
     </ProjectReference>
   </ItemGroup>
