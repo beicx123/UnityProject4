@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{07B80547-0572-3E27-E12A-4E8CAEF04A57}</ProjectGuid>
+    <ProjectGuid>{753363A6-D76D-C135-D0B7-EF7D65E79033}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UniFramework.Utility</AssemblyName>
