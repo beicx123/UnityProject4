@@ -1,0 +1,2444 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15554 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity/实训二/UnityProject4
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50347
+Successfully changed project path to: D:/Unity/实训二/UnityProject4
+D:/Unity/实训二/UnityProject4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16420] Host "[IP] 192.168.233.157 [Port] 0 [Flags] 2 [Guid] 3353097270 [EditorId] 3353097270 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EO6P6CEH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16420] Host "[IP] 192.168.233.157 [Port] 0 [Flags] 2 [Guid] 3353097270 [EditorId] 3353097270 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EO6P6CEH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 18.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path D:/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/实训二/UnityProject4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7247
+Initialize mono
+Mono path[0] = 'D:/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.17f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2022.3.17f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021529 seconds.
+- Loaded All Assemblies, in  0.418 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1071 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.314 seconds
+Domain Reload Profiling: 1720ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1315ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1160ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.587 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (69ms)
+				TypeCache.ScanAssembly (58ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 9.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1971 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (45.6 KB). Loaded Objects now: 2445.
+Memory consumption went from 105.1 MB to 105.0 MB.
+Total: 2.557500 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.032100 ms MarkObjects: 2.178800 ms  DeleteObjects: 0.094000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 744.644705 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying
+  artifactKey: Guid(9e066853a9bffb74eb02c5645c5f7f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying using Guid(9e066853a9bffb74eb02c5645c5f7f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d77246cd3d45f0a85c2dea912cd187') in 0.007075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.892540 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_000.png
+  artifactKey: Guid(11d28a4a18e55804f8549736c1b28427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_000.png using Guid(11d28a4a18e55804f8549736c1b28427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2693f38df00e1d58f313274bb29c6a0f') in 0.035753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.702497 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面
+  artifactKey: Guid(a0cb6b0dc4d546a458246460c07e8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面 using Guid(a0cb6b0dc4d546a458246460c07e8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd4834099fe6634e4024170de0b28c6') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.091636 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/baoxiang.png
+  artifactKey: Guid(454f0b48434f9944abcc3d670c35d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/baoxiang.png using Guid(454f0b48434f9944abcc3d670c35d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db60fa6a10a0755fdc638cc818f69c0') in 0.008435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.624396 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/bianhuaming-chibang.png
+  artifactKey: Guid(d60bc2647f0f9594ba78fcbb271f5f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/bianhuaming-chibang.png using Guid(d60bc2647f0f9594ba78fcbb271f5f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f664bb909e275baa9017392dba70e09') in 0.008725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.260449 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/bichu_01.png
+  artifactKey: Guid(89f5705792f2f5544a94cba1c056f43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/bichu_01.png using Guid(89f5705792f2f5544a94cba1c056f43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce955321b3826a03813c9a981be3a3f9') in 0.008206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.304248 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_bg.png
+  artifactKey: Guid(8b8b0d80f9e64c348bc0df83292cc833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_bg.png using Guid(8b8b0d80f9e64c348bc0df83292cc833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae21376da2389dc76be58d319e83902') in 0.009574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.358111 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_btn.png
+  artifactKey: Guid(0bbd7ce3aa9f48049bd03c5f9fa81592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_btn.png using Guid(0bbd7ce3aa9f48049bd03c5f9fa81592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73afd05c0d1486fb2031766f1ea07792') in 0.007256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.294257 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_zs.png
+  artifactKey: Guid(423e6789dc1510f408290336df58b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_zs.png using Guid(423e6789dc1510f408290336df58b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141829892a1cc441553d03b210fc9f7') in 0.009101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.456215 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/chibang01.png
+  artifactKey: Guid(a76955d1a91fd034db98426ff1a34049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/chibang01.png using Guid(a76955d1a91fd034db98426ff1a34049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4ae48223aded1784133abeefa51425') in 0.008513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.470614 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_01.png
+  artifactKey: Guid(224b6f5d903c06747b9f8e67e8c2ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_01.png using Guid(224b6f5d903c06747b9f8e67e8c2ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8df09517270e43521d28ee83d8cdeb3') in 0.008801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.293372 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_02.png
+  artifactKey: Guid(4da3a32b554268b4fa89c3f114462a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_02.png using Guid(4da3a32b554268b4fa89c3f114462a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcaf4bff2f985886f48b8b77f7d9d02') in 0.008005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.255205 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_03.png
+  artifactKey: Guid(5401d05b2aad20b46a805297c58ff887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_03.png using Guid(5401d05b2aad20b46a805297c58ff887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a7c5e9d796f80e658c0bc5db79df59') in 0.009134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.262764 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_baise_circle.png
+  artifactKey: Guid(0c316344f0fe3a3489423e18554e355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_baise_circle.png using Guid(0c316344f0fe3a3489423e18554e355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b147b07123b0711f04b8bf22548889c') in 0.008114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.454281 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_pmd.png
+  artifactKey: Guid(2778e53289b0ea14094e4e64bc26abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_pmd.png using Guid(2778e53289b0ea14094e4e64bc26abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86373729950ba0fab7a2cf6f190f3858') in 0.008467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.223197 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_green.png
+  artifactKey: Guid(ce3cfbc1d3ed8e3419e645d63a98875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_green.png using Guid(ce3cfbc1d3ed8e3419e645d63a98875b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6854e9bd3c0ea841b450dbcf05c0bbdf') in 0.009097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.254474 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_cai.png
+  artifactKey: Guid(10217f25e6a16784b8e00ec3a362ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_cai.png using Guid(10217f25e6a16784b8e00ec3a362ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3add6a5c845ac4b470ee3f2de84de86') in 0.008829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.038452 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_purple.png
+  artifactKey: Guid(ae9de2db3eb56874ca8c8232da721e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_purple.png using Guid(ae9de2db3eb56874ca8c8232da721e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3b1ac368bb40546ccc4d77586c51d5') in 0.008189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.303252 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_orange.png
+  artifactKey: Guid(78f6b4f6e83230545b100f0ecb876671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_orange.png using Guid(78f6b4f6e83230545b100f0ecb876671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309ed1d6a2d7768b7c1a54e9c7b796c4') in 0.008533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.310542 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_jindu_02.png
+  artifactKey: Guid(0df05b4795947eb4a8dcdc04595a40aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_jindu_02.png using Guid(0df05b4795947eb4a8dcdc04595a40aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ca3f2af3b0ca259512611b6895e873') in 0.008944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.550099 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_jindu_03.png
+  artifactKey: Guid(1e3cad94a7a158a40b50bd3d928d24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_jindu_03.png using Guid(1e3cad94a7a158a40b50bd3d928d24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14ae5c6f2ac022a51f199b3dbc99479') in 0.008325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.078067 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_01.png
+  artifactKey: Guid(baab33adf6a050c4ea7fe3f179d8e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_01.png using Guid(baab33adf6a050c4ea7fe3f179d8e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731503806d196bc5b32fa4c2c06a1dc8') in 0.008498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.265096 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_00.png
+  artifactKey: Guid(0f8a8fb3eab463d43b430fdb611ffd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_00.png using Guid(0f8a8fb3eab463d43b430fdb611ffd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f871231c62f4fe20f1d6f0739df2701c') in 0.009771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.517410 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_02.png
+  artifactKey: Guid(4860e31bb34644e4f8c9a62ffb95c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_02.png using Guid(4860e31bb34644e4f8c9a62ffb95c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38532973595c6a87583854156e7f4039') in 0.009115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.220758 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_biaoti_01.png
+  artifactKey: Guid(2d4c0a7fb9fa15a4cb53fcaeb1c81867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_biaoti_01.png using Guid(2d4c0a7fb9fa15a4cb53fcaeb1c81867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a8253517a167601800240a2a72a3a3') in 0.008358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.305115 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_zs_01.png
+  artifactKey: Guid(4fc55b227ea0d4f43a119ac532ffe478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_zs_01.png using Guid(4fc55b227ea0d4f43a119ac532ffe478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04528d4de42acf226b765c77fb6bccab') in 0.008948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.350257 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_biaoti_02.png
+  artifactKey: Guid(e80f8d6b7d8ae3e4c8cb16077ba08904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_biaoti_02.png using Guid(e80f8d6b7d8ae3e4c8cb16077ba08904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45604d71c6f13702667fc18f4f295d8b') in 0.008347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.457689 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/BackGround_01.png
+  artifactKey: Guid(e80f8d6b7d8ae3e4c8cb16077ba08904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/BackGround_01.png using Guid(e80f8d6b7d8ae3e4c8cb16077ba08904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec6cd5c8268ee6a3c069ff2a58d5267') in 0.008129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.279594 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/BackGround_01.png
+  artifactKey: Guid(e80f8d6b7d8ae3e4c8cb16077ba08904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/BackGround_01.png using Guid(e80f8d6b7d8ae3e4c8cb16077ba08904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c23a4255cddb163059f135119112288') in 0.026932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 98.901245 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(d2a470307c279824cbcd6e6806cd3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(d2a470307c279824cbcd6e6806cd3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9c034898ec178b43e946a20a89c22') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.612470 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_colour.png
+  artifactKey: Guid(f2bd936dd2217e645bdf375da5d959d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_colour.png using Guid(f2bd936dd2217e645bdf375da5d959d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e4c760f82b39e659c2bd3cc6d09d6f') in 0.008667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.473928 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_golden.png
+  artifactKey: Guid(d138871a245b4d84db049af23fad5d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_golden.png using Guid(d138871a245b4d84db049af23fad5d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f424389c10b38ce8ad477c9c98281156') in 0.007849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.728457 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_green.png
+  artifactKey: Guid(6f7b8331afb084142aa1da1cb18616c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_green.png using Guid(6f7b8331afb084142aa1da1cb18616c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841fe10d63613e5c35b957258c404d7c') in 0.008066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.477819 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_orange.png
+  artifactKey: Guid(848f4076797a52745a668846066f613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_orange.png using Guid(848f4076797a52745a668846066f613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b9993352ca14fd77864392290acc8a') in 0.009656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.341963 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_red.png
+  artifactKey: Guid(262ef20ccb9dc334b9688072aad5c66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_00_red.png using Guid(262ef20ccb9dc334b9688072aad5c66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c71df85b8b8621a495b02f1c5e4972') in 0.008371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.846793 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01.png
+  artifactKey: Guid(68c429dd6daa0d4439dcb2440bbb30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01.png using Guid(68c429dd6daa0d4439dcb2440bbb30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4482b2714b1b33034713dcebdc0d6106') in 0.008675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.415793 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_cai.png
+  artifactKey: Guid(75152a487b62bc14083704603fe0845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_cai.png using Guid(75152a487b62bc14083704603fe0845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd9a4505fed7c1c8606950b3639d148') in 0.008422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.344076 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_golden.png
+  artifactKey: Guid(32929618217c85c40a8d6600eb65f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_golden.png using Guid(32929618217c85c40a8d6600eb65f94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdff1fe32aaa5ed71b20015e54d7126') in 0.008412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.277882 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_orange.png
+  artifactKey: Guid(e8cb31f982cd6704e97f39bb9fd802c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_orange.png using Guid(e8cb31f982cd6704e97f39bb9fd802c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad619f26b27731825f887aa0b7544d9') in 0.008689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.277714 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_red.png
+  artifactKey: Guid(0f0e8cea24b394c46bda5d46fec62677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_tips_board_01_red.png using Guid(0f0e8cea24b394c46bda5d46fec62677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295c41918c82203b0e4c127ef8606a3b') in 0.008132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.138409 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_xiala_icon_01.png
+  artifactKey: Guid(b3f351f9b4986de42976d6a9a9e3e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_xiala_icon_01.png using Guid(b3f351f9b4986de42976d6a9a9e3e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6177e9ba1125c61500b59c1b2ba932f1') in 0.008396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.411727 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_board_quality_green.png
+  artifactKey: Guid(4575d90c98a07114d8981dd248f1fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_board_quality_green.png using Guid(4575d90c98a07114d8981dd248f1fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e13af77c520f9487aad199bb9e841b7') in 0.008343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.311334 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_board_quality_orange.png
+  artifactKey: Guid(2a6587ae081709d42a5e7c2829fefa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_board_quality_orange.png using Guid(2a6587ae081709d42a5e7c2829fefa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce98ea2bb5cf74c36f571043113308ca') in 0.008334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.221715 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_board_quality_purple.png
+  artifactKey: Guid(6866dc816eedde746a7c999c4b280512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_board_quality_purple.png using Guid(6866dc816eedde746a7c999c4b280512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2c2f32ac624867b7f6f36b725ced64') in 0.008178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.992523 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_cilp_jindutiao.png
+  artifactKey: Guid(c3cc2c24282446245afdb4d5dc1bc632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_cilp_jindutiao.png using Guid(c3cc2c24282446245afdb4d5dc1bc632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d978ee15b08d7f6e96ee9832ea04ba') in 0.008680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.294619 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_btn_green01.png
+  artifactKey: Guid(af27684a7d6435d4ead0a69b77d726f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_btn_green01.png using Guid(af27684a7d6435d4ead0a69b77d726f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7a8d08e31abf5c0a6867235e65c96b') in 0.009142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.828846 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_baidi.png
+  artifactKey: Guid(ca6bf820be5e4064e86483a7d392eebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_baidi.png using Guid(ca6bf820be5e4064e86483a7d392eebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4339f33914651354e6f2a6506c4cd6d1') in 0.008502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.303365 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_font_gxhd.png
+  artifactKey: Guid(62ae5cd596429e848a6a7e35e4c51705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_font_gxhd.png using Guid(62ae5cd596429e848a6a7e35e4c51705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad59c588a33485f0755a872412ece34') in 0.008641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.669320 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_dikuang01.png
+  artifactKey: Guid(aa975ac871d72f14ba58581374fcad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_dikuang01.png using Guid(aa975ac871d72f14ba58581374fcad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94360bcce24186bb15cad1bd9a2b54a7') in 0.008725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.335197 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_heidi01.png
+  artifactKey: Guid(518dc4c734509964eaae83cdf50c83e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_heidi01.png using Guid(518dc4c734509964eaae83cdf50c83e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88654073112084a447440f14c089f646') in 0.007764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.272923 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi001.png
+  artifactKey: Guid(6f827dc590fe884469ba060f58965cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi001.png using Guid(6f827dc590fe884469ba060f58965cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ffc185c864c3443e64d1edda736300') in 0.007888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.319350 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi002.png
+  artifactKey: Guid(adf7fe218447def4daae8bbc3bb7356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi002.png using Guid(adf7fe218447def4daae8bbc3bb7356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2f2fef666efd7b8d096d744a1f1464') in 0.008519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.278656 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi003.png
+  artifactKey: Guid(fa8c76ea342dd274aba12513e356f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi003.png using Guid(fa8c76ea342dd274aba12513e356f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91afd45e3f302ea7af54759e50d410bd') in 0.008169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.246178 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi004.png
+  artifactKey: Guid(4bd541e444ff6ad45a2a1f54523fd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_frame_modi004.png using Guid(4bd541e444ff6ad45a2a1f54523fd1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f246fc12cb8ba801e6e612add60ae77a') in 0.008228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.535782 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_002.png
+  artifactKey: Guid(c95add675280ddb4d979fe516bbd5c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_002.png using Guid(c95add675280ddb4d979fe516bbd5c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9ed32b296d324cf294d87c475daa4a') in 0.008391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.462399 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_001.png
+  artifactKey: Guid(ad31d23991e93db4ca96955506c59f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_001.png using Guid(ad31d23991e93db4ca96955506c59f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46643a4cd11174787ad1114e791a7179') in 0.008327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.046747 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_003.png
+  artifactKey: Guid(9efd432a9945df54bbc57e57091a9e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_003.png using Guid(9efd432a9945df54bbc57e57091a9e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2074985118ddd7d421b80e499df4301') in 0.013321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.250100 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_005.png
+  artifactKey: Guid(e535e630e0115674ab87b09acb9d2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_005.png using Guid(e535e630e0115674ab87b09acb9d2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69873d4af8267f1fd573f13afb4c662e') in 0.010227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.293278 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_004.png
+  artifactKey: Guid(09b50769ef8ee67409e3f0d5323402fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_004.png using Guid(09b50769ef8ee67409e3f0d5323402fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f604c46b6166859c84e6b8caf70e97') in 0.009346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.735765 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_006.png
+  artifactKey: Guid(680db4fdde4f7684ca1e292cf594b654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_006.png using Guid(680db4fdde4f7684ca1e292cf594b654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fd1a2cb3dddf98bd9ac7a665ce6cff') in 0.009023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.196211 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_007.png
+  artifactKey: Guid(242049fda4ff0854e8813dd24e02ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_007.png using Guid(242049fda4ff0854e8813dd24e02ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948d868f2b569adc9df8faba3088af6c') in 0.007726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.759174 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_008.png
+  artifactKey: Guid(42f978afb26c3c34397b5c0c1ee56bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_008.png using Guid(42f978afb26c3c34397b5c0c1ee56bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de891540a8afc5dfe1406ee0a8f1058b') in 0.008224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.230948 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_009.png
+  artifactKey: Guid(53c35ae646791c64fbee03773555023a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_009.png using Guid(53c35ae646791c64fbee03773555023a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9128458186c1b9853aef2e43b362d0') in 0.008219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.195344 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_010.png
+  artifactKey: Guid(b91aeb8cdf29ed0488c6a22e18ffe1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_010.png using Guid(b91aeb8cdf29ed0488c6a22e18ffe1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5c68b8b96ef39a934565b6d7fd5295') in 0.008185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.244434 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_biaoshi.png
+  artifactKey: Guid(f622c9f936cf9214889af0e5637384b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_biaoshi.png using Guid(f622c9f936cf9214889af0e5637384b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d05b65ed1c7a1f62042db94c32306d') in 0.008376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.317274 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_011.png
+  artifactKey: Guid(41aa0cf6589a6f04481059a2068e4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_011.png using Guid(41aa0cf6589a6f04481059a2068e4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68663c858a48c1791596092e2e51d631') in 0.008450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.200459 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_biaoshi02.png
+  artifactKey: Guid(9e793f245458b5949b9899b917f363a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_biaoshi02.png using Guid(9e793f245458b5949b9899b917f363a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4827854341a9536aa63446df2b6a4300') in 0.009000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.183875 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_ditan01.png
+  artifactKey: Guid(7b12e378c11256748ba1825b3cf2870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_ditan01.png using Guid(7b12e378c11256748ba1825b3cf2870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b877f49f3db5d8bec067c35e62e4bf8') in 0.009661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.906567 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_ditan02.png
+  artifactKey: Guid(818ee1b0ebd2a7d4fb55a06940ba45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_ditan02.png using Guid(818ee1b0ebd2a7d4fb55a06940ba45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca751ff444ce5381e31e31f5bd497ae') in 0.008357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.250829 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_jiantou.png
+  artifactKey: Guid(f54ae0090458fbc42936dd2229668282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_jiantou.png using Guid(f54ae0090458fbc42936dd2229668282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b928a1a80bbc699cb257f28ef8f6d35f') in 0.008364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.219861 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_liangdi.png
+  artifactKey: Guid(82cb3601aec665246a28c3150a39cdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_img_liangdi.png using Guid(82cb3601aec665246a28c3150a39cdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aff6eed6d4c43aa479d1b589b2d113b') in 0.008904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.365008 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_tab_nor.png
+  artifactKey: Guid(5e0258fe899da7747b48d80fdbfa6d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_tab_nor.png using Guid(5e0258fe899da7747b48d80fdbfa6d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1af51d26dacd8852a5c665f00b0248') in 0.008251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.527100 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_tab_pre.png
+  artifactKey: Guid(02b68d8d66be172448af99efd8687ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cw_tab_pre.png using Guid(02b68d8d66be172448af99efd8687ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bccddd76f85afafe885ede8203a260') in 0.008398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.271507 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dai_002_dd.png
+  artifactKey: Guid(35bfe649ef0db2d44866fa92ee796c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dai_002_dd.png using Guid(35bfe649ef0db2d44866fa92ee796c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486640ffe3a1aef2b9e919e459fe7de') in 0.008855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.783431 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_bth_jryx.png
+  artifactKey: Guid(f5ad0f5c927ce3547960c9882e3c7d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_bth_jryx.png using Guid(f5ad0f5c927ce3547960c9882e3c7d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80f116da2463a8a042a9162250d0d12') in 0.008433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.294055 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_cilp_fwqbd.png
+  artifactKey: Guid(15e0d816dda31714184449a7af10a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_cilp_fwqbd.png using Guid(15e0d816dda31714184449a7af10a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac07958021122853821cb9f211d6e78') in 0.007999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.094214 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_cilp_fwqbd02.png
+  artifactKey: Guid(74b0ad308e34c6e409b45a3b4b2b00ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_cilp_fwqbd02.png using Guid(74b0ad308e34c6e409b45a3b4b2b00ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e7b857da50382cdc8c79e447483e0e') in 0.007921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.343906 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_dk.png
+  artifactKey: Guid(0f6a207bb48971148bbf5b63b9446310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_dk.png using Guid(0f6a207bb48971148bbf5b63b9446310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e8e23d8ea458a9f6bb4931225c8952') in 0.008501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.286834 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_dldk.png
+  artifactKey: Guid(a482140439454464691992cb77de0986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_dldk.png using Guid(a482140439454464691992cb77de0986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f166b22e6d1cfde9ede814d13fe929') in 0.008925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.896053 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_dlbd.png
+  artifactKey: Guid(217dcf9fed550e74296779e24dc584f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_dlbd.png using Guid(217dcf9fed550e74296779e24dc584f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458685ebcd17ae721879ab28631834b1') in 0.013494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.272392 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_mzdk.png
+  artifactKey: Guid(49223f9f475c42c43be4a6dce2a73760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_frame_mzdk.png using Guid(49223f9f475c42c43be4a6dce2a73760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938dffc2e10f28399935cf96372c0515') in 0.008863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.319372 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_icon_yhzx.png
+  artifactKey: Guid(b0830bc7ed74f134cb7914422e4f613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_icon_yhzx.png using Guid(b0830bc7ed74f134cb7914422e4f613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7620531d247f9c461cc2d426866019') in 0.008697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.909325 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_jdt001.png
+  artifactKey: Guid(6b086d4b8783e7c429dcd63b844c5f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_jdt001.png using Guid(6b086d4b8783e7c429dcd63b844c5f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfee6c10c1c4e25a6a78c3e5745cebd0') in 0.008630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.239933 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_jdt002.png
+  artifactKey: Guid(6d4d7ca815c3595429bb43a1a1333100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_jdt002.png using Guid(6d4d7ca815c3595429bb43a1a1333100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e26060d1458e2c6a93db46de07a307') in 0.008297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.517666 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_nan02.png
+  artifactKey: Guid(c5c7eccdc0e4c3f42bdac4be45c792d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_nan02.png using Guid(c5c7eccdc0e4c3f42bdac4be45c792d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c668b94fa7da76fb89739a841f5076') in 0.009961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.221183 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_nv01.png
+  artifactKey: Guid(71c5b68263190684fbcd2370c2a57312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_nv01.png using Guid(71c5b68263190684fbcd2370c2a57312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b1c5b001db42e43e6d69a0a983ca8') in 0.008826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.671152 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_sb001.png
+  artifactKey: Guid(2f73ae8401f51824e9e367b387e8e600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_sb001.png using Guid(2f73ae8401f51824e9e367b387e8e600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f76369b701e3cdc465ed809df427cb9') in 0.009397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.262373 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_touzi.png
+  artifactKey: Guid(f07ac83d7c358524dbb2bb8819394dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_touzi.png using Guid(f07ac83d7c358524dbb2bb8819394dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a48ad876fb5284b66de1add73e7fa37') in 0.008540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.174759 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_zt001.png
+  artifactKey: Guid(05bea209ec53cd94c810fe10e13ec162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_zt001.png using Guid(05bea209ec53cd94c810fe10e13ec162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcd7e90eed8dc82924ed0fc81e64e3b') in 0.008424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.814274 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_zt003.png
+  artifactKey: Guid(ed76ebcf3eb3a8546a8df0356e880cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_zt003.png using Guid(ed76ebcf3eb3a8546a8df0356e880cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb255c79bb556b091debba559169461') in 0.008252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.424114 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_zt002.png
+  artifactKey: Guid(6be737389aa29474793481e7ec7eb8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_img_zt002.png using Guid(6be737389aa29474793481e7ec7eb8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655413a77326d609dc23f59d01814372') in 0.008156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206721 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_logo_mjdx.png
+  artifactKey: Guid(3e9841a1c2aa3034397052d6612ce3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_logo_mjdx.png using Guid(3e9841a1c2aa3034397052d6612ce3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598e78628a35bf9cd4981dcb17a035de') in 0.007908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 81.755517 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_tab_wxz.png
+  artifactKey: Guid(d7d0fa2d7b832c444a5f60dc2fdf47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_tab_wxz.png using Guid(d7d0fa2d7b832c444a5f60dc2fdf47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fab77ce726f4cb09cd55de3ac8e3e52') in 0.008946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.596479 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_tab_xz.png
+  artifactKey: Guid(2d418474cec23184fb198353c98b71e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dl_tab_xz.png using Guid(2d418474cec23184fb198353c98b71e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfd0c38009d71a58f4828ffa33be581') in 0.008578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.288466 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dubixia_shou_002_dyx.png
+  artifactKey: Guid(e7be91328b4d90e40afd6a1f4a984f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dubixia_shou_002_dyx.png using Guid(e7be91328b4d90e40afd6a1f4a984f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584e2db798a36ec2603453584af1dc2b') in 0.008204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.278714 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dubixia_shou_004_dyx.png
+  artifactKey: Guid(7eaa37822113fb94bb7a12fecc8048a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/dubixia_shou_004_dyx.png using Guid(7eaa37822113fb94bb7a12fecc8048a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830ccafde10aa6315b5c0ca978d587c0') in 0.009033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.989636 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/EscToExit_back.png
+  artifactKey: Guid(d273155da332b484182eb88fdfb2da55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/EscToExit_back.png using Guid(d273155da332b484182eb88fdfb2da55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6998aa79bc60fa6ba063cf0eea236025') in 0.007956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.270512 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/EmojiOne.png
+  artifactKey: Guid(f014878a239c11540b61f81176353ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/EmojiOne.png using Guid(f014878a239c11540b61f81176353ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a22dd35c78e2f98ad33fdb9f2993fc') in 0.008878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.247481 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fazhen02_dyx.png
+  artifactKey: Guid(b48dfb421e03eda478a43678fdafa819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fazhen02_dyx.png using Guid(b48dfb421e03eda478a43678fdafa819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f831a7019246c912fa37171a340c8be') in 0.007757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.271483 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fazhen03_dyx.png
+  artifactKey: Guid(f48efe387fd03a8428904cbfe22f4893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fazhen03_dyx.png using Guid(f48efe387fd03a8428904cbfe22f4893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ac696788c9f7652be6c8001f4544fd') in 0.008987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.294502 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/feilun_07_n.png
+  artifactKey: Guid(e4bd77ffcfbd5964587d9490ab8c2bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/feilun_07_n.png using Guid(e4bd77ffcfbd5964587d9490ab8c2bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6ec8761fd3209cb2465ca6b9529dd6') in 0.008147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.310341 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/feilun_09_n.png
+  artifactKey: Guid(b374ff8c3e8aa5540a89da7f8814273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/feilun_09_n.png using Guid(b374ff8c3e8aa5540a89da7f8814273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e39247d5e15edc78d10ea40dd8916b') in 0.007968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.415725 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/feilun_08_n.png
+  artifactKey: Guid(dd9c8322a19d26140a1b136853169f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/feilun_08_n.png using Guid(dd9c8322a19d26140a1b136853169f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029faef298599054ec5f8db775fdc378') in 0.008448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.022544 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_bg.png
+  artifactKey: Guid(b78bc5b84e27fae43b8bc6ad40719489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_bg.png using Guid(b78bc5b84e27fae43b8bc6ad40719489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d3958f451f371d2188403b0703f2f9') in 0.009240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.269884 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_board_fjhd.png
+  artifactKey: Guid(54da985f84342fe4b96fd27d33329818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_board_fjhd.png using Guid(54da985f84342fe4b96fd27d33329818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3471ed9fe9a7d0cbbcaaae45e61d0248') in 0.008093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.439518 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_frame_shuimo_02.png
+  artifactKey: Guid(2d8f90d1f7b74e64599c9c2e34f56978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_frame_shuimo_02.png using Guid(2d8f90d1f7b74e64599c9c2e34f56978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3210a4c40d0168232abc6143e43f80cc') in 0.008948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.302063 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_icon_duihuan.png
+  artifactKey: Guid(54edf8eb950aaf6439dbd5acb29c4cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_icon_duihuan.png using Guid(54edf8eb950aaf6439dbd5acb29c4cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d7243768f32f106bb880a0411a56a') in 0.007776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.271292 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_frame_04.png
+  artifactKey: Guid(21aeb4b94d45fbf40a62b54eca553b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fj_frame_04.png using Guid(21aeb4b94d45fbf40a62b54eca553b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f05b1db9056f56818f72937597de58') in 0.007708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.440511 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/flare_002_dd.png
+  artifactKey: Guid(81ec885d56ee14843a9782c428b02fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/flare_002_dd.png using Guid(81ec885d56ee14843a9782c428b02fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c46d2fbb55f6644c65c80615c5a360') in 0.008029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.254168 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fo_zhen_001_Tex.png
+  artifactKey: Guid(18247c274ed5e20408a6a81fd9f64e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/fo_zhen_001_Tex.png using Guid(18247c274ed5e20408a6a81fd9f64e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef44b70b40d88ceebce3aaa320173c1') in 0.008354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.271494 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/Fx_Rin021.png
+  artifactKey: Guid(bc65e02b648904743aba7898964f33a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/Fx_Rin021.png using Guid(bc65e02b648904743aba7898964f33a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd8f70c59120f5283b84f0be3072f05') in 0.009246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.263362 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/ge_img_frame.png
+  artifactKey: Guid(3e0196d030f5024428078e72cb65b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/ge_img_frame.png using Guid(3e0196d030f5024428078e72cb65b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b10a7b647c3d8ec12df059eab75ff8e') in 0.008904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.429487 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/ge_img_shuxingdi.png
+  artifactKey: Guid(ae042e4124223e644bdbe160ad97512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/ge_img_shuxingdi.png using Guid(ae042e4124223e644bdbe160ad97512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c02685edd9d67345dfe066e83f2abe') in 0.008606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.239015 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gh_nengliang_02.png
+  artifactKey: Guid(56ca20251e4a33544bfd9e88f1e19edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gh_nengliang_02.png using Guid(56ca20251e4a33544bfd9e88f1e19edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a90a9618221df15db74173b73fa4ac') in 0.007885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.214352 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_fbyq.png
+  artifactKey: Guid(6d0ca23fcfd6b3b4fac7e143be4818c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_fbyq.png using Guid(6d0ca23fcfd6b3b4fac7e143be4818c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142b41bbcbe2af18c28fb2861277f7a8') in 0.008551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.135316 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_gk_nor.png
+  artifactKey: Guid(fc67af56dfa00a948b84050175d4afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_gk_nor.png using Guid(fc67af56dfa00a948b84050175d4afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e1c237c7d2e1bf2ae6c1958cbd0262') in 0.008826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.734831 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_gk_purple.png
+  artifactKey: Guid(dc03093bfc75d994b95fa4c40f199fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_gk_purple.png using Guid(dc03093bfc75d994b95fa4c40f199fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab700536ac9e318a143956f82e2d6fd0') in 0.008274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.934491 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_gk_red.png
+  artifactKey: Guid(2fbee262dd807a146a19d269c17eb6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_gk_red.png using Guid(2fbee262dd807a146a19d269c17eb6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269952e95c7558da747a4fa8ba799123') in 0.008181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.270668 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_td.png
+  artifactKey: Guid(763cd783afad8a94392ee3a0b109c8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_btn_td.png using Guid(763cd783afad8a94392ee3a0b109c8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eea4c3e544475ad08933e17b66399f2') in 0.008717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.566687 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_checkbox_bar.png
+  artifactKey: Guid(09d3f867c9b33b14f94ee2ec0370f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_checkbox_bar.png using Guid(09d3f867c9b33b14f94ee2ec0370f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41684d1a253b3dd14039ce94c22c57b2') in 0.008449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.215637 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_checkbox_point.png
+  artifactKey: Guid(c6eefd50a83076944a5b3482cb37ab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_checkbox_point.png using Guid(c6eefd50a83076944a5b3482cb37ab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65847742c9ba258436056dfdc608d96b') in 0.008643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.711594 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_frame_gkdl.png
+  artifactKey: Guid(42d40620f61d17c42b84fc183cbb8288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_frame_gkdl.png using Guid(42d40620f61d17c42b84fc183cbb8288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441bfb2ef5535c869e6cff9452dea5b3') in 0.009243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.285103 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_frame_title.png
+  artifactKey: Guid(bf2ce733f111ac848a25352ff79f99f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_frame_title.png using Guid(bf2ce733f111ac848a25352ff79f99f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57af26fb5e3da5e51674bebcb9080186') in 0.007928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.808106 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_icon_dz.png
+  artifactKey: Guid(f711dec1d2ab40e4aa453eb71dc9cb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_icon_dz.png using Guid(f711dec1d2ab40e4aa453eb71dc9cb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eba24e4b48e24855fa41232ece6c6e5') in 0.007777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.926717 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_gksl.png
+  artifactKey: Guid(6489c07b09d8acc409de2c84e6ce32a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_gksl.png using Guid(6489c07b09d8acc409de2c84e6ce32a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3e8e0473adf4bb5bab542e89504113') in 0.008796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.358268 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_jiesuo.png
+  artifactKey: Guid(b03418b0d1122e343b49aaafa0c13948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_jiesuo.png using Guid(b03418b0d1122e343b49aaafa0c13948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd956789cf73c8d7a73bfa874f397a45') in 0.007853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.368424 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_jqqd.png
+  artifactKey: Guid(6111a44c6a2339248975a2ac035c7f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_jqqd.png using Guid(6111a44c6a2339248975a2ac035c7f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e3cce8ed0e217ee69e28fa7602681e') in 0.009676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.261383 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_jsxjn.png
+  artifactKey: Guid(eebc76b6ad4ef11408a15855243469fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/gk_img_jsxjn.png using Guid(eebc76b6ad4ef11408a15855243469fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff9499c0eba70fa427e6d7440a9c36') in 0.009361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 277.012742 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ea02f564ba6a276ec032d720829234') in 0.021063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 368.152486 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/音效
+  artifactKey: Guid(220aef83a9edc1b4ebcc536fd3f3de3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/音效 using Guid(220aef83a9edc1b4ebcc536fd3f3de3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546bb97a03cab415bb41d9b3c262ab4c') in 0.010053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 230.766656 seconds.
+  path: Assets/Resources/Greek Warrior/AI/Greek Warrior.ai
+  artifactKey: Guid(618dcd8654816fd49b61bac48d781f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/AI/Greek Warrior.ai using Guid(618dcd8654816fd49b61bac48d781f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518064675905bedf3b962b473a595f46') in 0.034489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.168007 seconds.
+  path: Assets/Resources/Greek Warrior/EPS
+  artifactKey: Guid(e17439c194219494a95ac8e3499ff7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS using Guid(e17439c194219494a95ac8e3499ff7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc741f176b06baa0f89505492c27974') in 0.000961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.513321 seconds.
+  path: Assets/Resources/Greek Warrior/EPS/Greek Warrior_Body.eps
+  artifactKey: Guid(de00c8bb049422947b823bace4ee0a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS/Greek Warrior_Body.eps using Guid(de00c8bb049422947b823bace4ee0a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2ec766d22c2c99932ff8d484c1a5b') in 0.002739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.518978 seconds.
+  path: Assets/Resources/Greek Warrior/EPS/Greek Warrior_Face 01.eps
+  artifactKey: Guid(6093ba270b6d4ff4c84087bb213e305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS/Greek Warrior_Face 01.eps using Guid(6093ba270b6d4ff4c84087bb213e305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30741f84fbc1d8a6761f573ac073c9a') in 0.003681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.220611 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/特效序列
+  artifactKey: Guid(9e9b4e05980e4ca499479bc1fb706f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/特效序列 using Guid(9e9b4e05980e4ca499479bc1fb706f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ba66ed9f45dd2aed4989816e5b307c') in 0.000943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.270895 seconds.
+  path: Assets/Resources/Greek Warrior/EPS/Greek Warrior_Right Leg.eps
+  artifactKey: Guid(6d3f4e60d3ee07a4d9dd3df2b54b2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS/Greek Warrior_Right Leg.eps using Guid(6d3f4e60d3ee07a4d9dd3df2b54b2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9caf110b7f8f1ed61805738c6d37c9') in 0.001769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.348493 seconds.
+  path: Assets/Resources/Greek Warrior/EPS/Greek Warrior_Weapon.eps
+  artifactKey: Guid(06d122e9b49bc664e9eee89fe8e934a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS/Greek Warrior_Weapon.eps using Guid(06d122e9b49bc664e9eee89fe8e934a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4f10c2e6fb8fecf524d45059fe336f') in 0.002592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.309385 seconds.
+  path: Assets/Resources/Greek Warrior/EPS/Greek Warrior_SlashFX.eps
+  artifactKey: Guid(11c63cfcb2ce35b47bcca0e059496118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS/Greek Warrior_SlashFX.eps using Guid(11c63cfcb2ce35b47bcca0e059496118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cae1b1f4f9f31112f265cf81ccdcf9') in 0.002023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.542799 seconds.
+  path: Assets/Resources/Greek Warrior/EPS/Greek Warrior_Left Hand.eps
+  artifactKey: Guid(e89e8e04657a3a74999cca0c46929fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS/Greek Warrior_Left Hand.eps using Guid(e89e8e04657a3a74999cca0c46929fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e212db965f0a02ac531e5ae3622be9') in 0.003747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.769108 seconds.
+  path: Assets/Resources/Greek Warrior
+  artifactKey: Guid(996007f567e490c47b0bb153a1c5ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior using Guid(996007f567e490c47b0bb153a1c5ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd85bc02f4fb6c80012ffaff0314a816') in 0.004943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.445 seconds
+Refreshing native plugins compatible for Editor in 13.58 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.630 seconds
+Domain Reload Profiling: 3043ms
+	BeginReloadAssembly (909ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (566ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (42ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 14.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.2 KB). Loaded Objects now: 2465.
+Memory consumption went from 105.0 MB to 104.9 MB.
+Total: 3.900400 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.069000 ms MarkObjects: 3.460100 ms  DeleteObjects: 0.102400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.320 seconds
+Refreshing native plugins compatible for Editor in 12.52 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.545 seconds
+Domain Reload Profiling: 2837ms
+	BeginReloadAssembly (892ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (481ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1545ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 14.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.1 KB). Loaded Objects now: 2468.
+Memory consumption went from 106.9 MB to 106.9 MB.
+Total: 2.563300 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.057300 ms MarkObjects: 2.265500 ms  DeleteObjects: 0.044600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.420 seconds
+Refreshing native plugins compatible for Editor in 11.30 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.587 seconds
+Domain Reload Profiling: 2972ms
+	BeginReloadAssembly (944ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 9.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.3 KB). Loaded Objects now: 2471.
+Memory consumption went from 108.8 MB to 108.8 MB.
+Total: 2.348700 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.040200 ms MarkObjects: 2.062000 ms  DeleteObjects: 0.048200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.253 seconds
+Refreshing native plugins compatible for Editor in 11.56 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 2679ms
+	BeginReloadAssembly (830ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (42ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 12.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.2 KB). Loaded Objects now: 2474.
+Memory consumption went from 110.7 MB to 110.7 MB.
+Total: 2.668900 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.421100 ms  DeleteObjects: 0.046400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.299 seconds
+Refreshing native plugins compatible for Editor in 13.70 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.486 seconds
+Domain Reload Profiling: 2757ms
+	BeginReloadAssembly (868ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (42ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 15.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.1 KB). Loaded Objects now: 2477.
+Memory consumption went from 112.7 MB to 112.6 MB.
+Total: 2.636200 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.039200 ms MarkObjects: 2.248100 ms  DeleteObjects: 0.053900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.918591 seconds.
+  path: Assets/Greek Warrior/Prefab/Greek Warrior.prefab
+  artifactKey: Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Warrior/Prefab/Greek Warrior.prefab using Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97357fd2f1d5126357f9163ba3a58104') in 0.099155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.247 seconds
+Refreshing native plugins compatible for Editor in 12.58 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.527 seconds
+Domain Reload Profiling: 2748ms
+	BeginReloadAssembly (823ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 15.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.0 KB). Loaded Objects now: 2484.
+Memory consumption went from 114.8 MB to 114.8 MB.
+Total: 2.493600 ms (FindLiveObjects: 0.190700 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.221400 ms  DeleteObjects: 0.040300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.425859 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(325071ec6aa189347ac244d53960ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(325071ec6aa189347ac244d53960ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a9c8eef26497fd01e1d825c08eddb0') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.054453 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(bcb32ce93d7e1c649b8e1c67b90fe66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(bcb32ce93d7e1c649b8e1c67b90fe66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b54ff1caeed035e080ed232c70f670') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.188 seconds
+Refreshing native plugins compatible for Editor in 9.39 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.362 seconds
+Domain Reload Profiling: 2525ms
+	BeginReloadAssembly (781ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 10.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.2 KB). Loaded Objects now: 2488.
+Memory consumption went from 116.7 MB to 116.7 MB.
+Total: 2.904300 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.036000 ms MarkObjects: 2.627000 ms  DeleteObjects: 0.053700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.572608 seconds.
+  path: Assets/Resources/Greek Warrior/AI
+  artifactKey: Guid(34e7c5609dc708840b7fc0c67a47d2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/AI using Guid(34e7c5609dc708840b7fc0c67a47d2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6f74dff74900129ff0e057fe63dcba') in 0.003563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.016408 seconds.
+  path: Assets/Resources/Greek Warrior/EPS/Greek Warrior_Face 03.eps
+  artifactKey: Guid(5c4cd7b94fc085541a3d18f607390b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/EPS/Greek Warrior_Face 03.eps using Guid(5c4cd7b94fc085541a3d18f607390b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27120ed692d866144980aae1ef0fd6d4') in 0.009174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.856335 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences
+  artifactKey: Guid(fc02948cb4fbc5247ad0b12ab193c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences using Guid(fc02948cb4fbc5247ad0b12ab193c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fb886a32779e97f0a60819b604352c') in 0.001152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.149373 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_002.png
+  artifactKey: Guid(677536a32d998224bb5297bb6474d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_002.png using Guid(677536a32d998224bb5297bb6474d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e2ecd6f008f4c4a7f3af63d90bef87') in 0.035623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.249573 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_004.png
+  artifactKey: Guid(70b5392ad63e64b45b678091faed7af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_004.png using Guid(70b5392ad63e64b45b678091faed7af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c90091aa1c3dc01847284f4e2a2f80') in 0.011798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.261516 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_005.png
+  artifactKey: Guid(cd678b0db6336f947bf01d7196a0f622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_005.png using Guid(cd678b0db6336f947bf01d7196a0f622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0938d284045f8805faa75377cd01f5f7') in 0.013014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.248832 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_006.png
+  artifactKey: Guid(16a1b053fe8cc024d8e05c84286a2d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_006.png using Guid(16a1b053fe8cc024d8e05c84286a2d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c39c97b3ab1947c33886b38deab48c6') in 0.011642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.327703 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_007.png
+  artifactKey: Guid(b80916dc1d349964e8b16e686ca9b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/PNG Sequences/Dying/Dying_007.png using Guid(b80916dc1d349964e8b16e686ca9b8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51169e663709ae9e20e5ecebb0a4272') in 0.012373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.450714 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/Vector Parts/Animations.scml
+  artifactKey: Guid(a8e121d5295b77941ba017708dfc1abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/Vector Parts/Animations.scml using Guid(a8e121d5295b77941ba017708dfc1abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff981889e8f0dbcaf97f84ad008375e') in 0.006148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.332818 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/Vector Parts/Face 01.png
+  artifactKey: Guid(4ebf05c484d2c08439ba188315a34e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/Vector Parts/Face 01.png using Guid(4ebf05c484d2c08439ba188315a34e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c3ed7df45344265838ffc60b590bf9') in 0.011169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.222347 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/Vector Parts/Face 02.png
+  artifactKey: Guid(5342fc945e1ac644b8979846f047eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/Vector Parts/Face 02.png using Guid(5342fc945e1ac644b8979846f047eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebffc607274c4c53702a3f7ec6ef2dc') in 0.011907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.270381 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/Vector Parts/Head.png
+  artifactKey: Guid(4d2ab906515f19249a1ceee6280efb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/Vector Parts/Head.png using Guid(4d2ab906515f19249a1ceee6280efb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6482623fb2d4b365f1ec4c9a18c5b4') in 0.011555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.258018 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/Vector Parts/Left Hand.png
+  artifactKey: Guid(d627b805225c5ed4389d164c47bafbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/Vector Parts/Left Hand.png using Guid(d627b805225c5ed4389d164c47bafbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea88d83cd48652cea49f3dcdec04885b') in 0.011268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.250113 seconds.
+  path: Assets/Resources/Greek Warrior/PNG/Vector Parts/Left Leg.png
+  artifactKey: Guid(1dd07e4d57ad2e449b5ce4e80ba18804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Greek Warrior/PNG/Vector Parts/Left Leg.png using Guid(1dd07e4d57ad2e449b5ce4e80ba18804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff92c07e2e5ca9a288b1e1cb78d5dd71') in 0.011797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.738820 seconds.
+  path: Assets/Greek Warrior/Prefab/Greek Warrior.controller
+  artifactKey: Guid(e39d9dc519a075c44b62a2a64c78046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Warrior/Prefab/Greek Warrior.controller using Guid(e39d9dc519a075c44b62a2a64c78046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84094a4c07c84074538eb07d540556c') in 0.006550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.190 seconds
+Refreshing native plugins compatible for Editor in 10.15 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.470 seconds
+Domain Reload Profiling: 2638ms
+	BeginReloadAssembly (783ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (441ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 10.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.1 KB). Loaded Objects now: 2491.
+Memory consumption went from 118.7 MB to 118.6 MB.
+Total: 2.811700 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.034000 ms MarkObjects: 2.538700 ms  DeleteObjects: 0.057400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.480 seconds
+Refreshing native plugins compatible for Editor in 11.95 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.352 seconds
+Domain Reload Profiling: 2787ms
+	BeginReloadAssembly (957ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (564ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 10.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.1 KB). Loaded Objects now: 2494.
+Memory consumption went from 120.6 MB to 120.6 MB.
+Total: 2.404700 ms (FindLiveObjects: 0.150000 ms CreateObjectMapping: 0.029700 ms MarkObjects: 2.179200 ms  DeleteObjects: 0.044700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.273 seconds
+Refreshing native plugins compatible for Editor in 15.67 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.637 seconds
+Domain Reload Profiling: 2881ms
+	BeginReloadAssembly (841ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 13.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.1 KB). Loaded Objects now: 2497.
+Memory consumption went from 122.5 MB to 122.5 MB.
+Total: 2.456300 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.132500 ms  DeleteObjects: 0.045000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.401 seconds
+Refreshing native plugins compatible for Editor in 14.18 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.553 seconds
+Domain Reload Profiling: 2927ms
+	BeginReloadAssembly (923ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (518ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1554ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 10.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.2 KB). Loaded Objects now: 2500.
+Memory consumption went from 124.4 MB to 124.4 MB.
+Total: 2.292700 ms (FindLiveObjects: 0.171600 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.029000 ms  DeleteObjects: 0.046300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.183 seconds
+Refreshing native plugins compatible for Editor in 10.72 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.428 seconds
+Domain Reload Profiling: 2588ms
+	BeginReloadAssembly (798ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 10.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.1 KB). Loaded Objects now: 2503.
+Memory consumption went from 126.4 MB to 126.3 MB.
+Total: 2.461400 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.038800 ms MarkObjects: 2.214900 ms  DeleteObjects: 0.041000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 977.541093 seconds.
+  path: Assets/Greek Warrior/Prefab/Greek Warrior.prefab
+  artifactKey: Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Warrior/Prefab/Greek Warrior.prefab using Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957c2705fec986f95a702551a2d519d2') in 0.071750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 21.836023 seconds.
+  path: Assets/Greek Warrior/Prefab/Greek Warrior.prefab
+  artifactKey: Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Warrior/Prefab/Greek Warrior.prefab using Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de8dc059f2d12c75c43b50e6800b9f1') in 0.030322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.244 seconds
+Refreshing native plugins compatible for Editor in 11.80 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 2673ms
+	BeginReloadAssembly (831ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 12.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.1 KB). Loaded Objects now: 2506.
+Memory consumption went from 128.3 MB to 128.3 MB.
+Total: 2.580900 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.035100 ms MarkObjects: 2.303900 ms  DeleteObjects: 0.041100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.067566 seconds.
+  path: Assets/Greek Warrior/Prefab/Greek Warrior.prefab
+  artifactKey: Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Warrior/Prefab/Greek Warrior.prefab using Guid(ff310c4f18b35f04eade317cac24efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a040893295dd1cbeaca1a4f226ac9128') in 0.067023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 14.399111 seconds.
+  path: Assets/Greek Warrior/Prefab/Greek Warrior.controller
+  artifactKey: Guid(e39d9dc519a075c44b62a2a64c78046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Warrior/Prefab/Greek Warrior.controller using Guid(e39d9dc519a075c44b62a2a64c78046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a316abab520cdfd743a420aaf154799d') in 0.004197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.293 seconds
+Refreshing native plugins compatible for Editor in 13.37 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.554 seconds
+Domain Reload Profiling: 2821ms
+	BeginReloadAssembly (870ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (458ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 13.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (28.2 KB). Loaded Objects now: 2509.
+Memory consumption went from 130.2 MB to 130.2 MB.
+Total: 2.878100 ms (FindLiveObjects: 0.276100 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.487500 ms  DeleteObjects: 0.047000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.643098 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(d2a470307c279824cbcd6e6806cd3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(d2a470307c279824cbcd6e6806cd3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b239109c184839a9657dbd06dbac59') in 0.004054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
