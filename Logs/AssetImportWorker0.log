@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15541 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15557 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\unity game\2022.3.17f1c1\Editor\Unity.exe
+D:\Unity\2022.3.17f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/unity game/day class/UnityProject4
+D:/Unity/UnityProject4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49796
-Successfully changed project path to: E:/unity game/day class/UnityProject4
-E:/unity game/day class/UnityProject4
+59382
+Successfully changed project path to: D:/Unity/UnityProject4
+D:/Unity/UnityProject4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,70 +49,70 @@ E:/unity game/day class/UnityProject4
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31792] Host "[IP] 192.168.180.102 [Port] 0 [Flags] 2 [Guid] 604618179 [EditorId] 604618179 [Version] 1048832 [Id] WindowsEditor(7,���쳾��redmi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17372] Host "[IP] 172.20.10.12 [Port] 0 [Flags] 2 [Guid] 3077263360 [EditorId] 3077263360 [Version] 1048832 [Id] WindowsEditor(7,ICON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31792] Host "[IP] 192.168.180.102 [Port] 0 [Flags] 2 [Guid] 604618179 [EditorId] 604618179 [Version] 1048832 [Id] WindowsEditor(7,���쳾��redmi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17372] Host "[IP] 172.20.10.12 [Port] 0 [Flags] 2 [Guid] 3077263360 [EditorId] 3077263360 [Version] 1048832 [Id] WindowsEditor(7,ICON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 28.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 16.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
-[Subsystems] Discovering subsystems at path E:/unity game/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/unity game/day class/UnityProject4/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/UnityProject4/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
     Vendor:   NVIDIA
     VRAM:     5996 MB
-    Driver:   32.0.15.6614
+    Driver:   32.0.15.7270
 Initialize mono
-Mono path[0] = 'E:/unity game/2022.3.17f1c1/Editor/Data/Managed'
-Mono path[1] = 'E:/unity game/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/unity game/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Mono path[0] = 'D:/Unity/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/unity game/2022.3.17f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/unity game/2022.3.17f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/unity game/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.060765 seconds.
-- Loaded All Assemblies, in  0.696 seconds
+Register platform support module: D:/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026913 seconds.
+- Loaded All Assemblies, in  0.476 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1761 ms
+Android Extension - Scanning For ADB Devices 1815 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.308 seconds
-Domain Reload Profiling: 2989ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  2.167 seconds
+Domain Reload Profiling: 2627ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (175ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (208ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (127ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2309ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (156ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2167ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2217ms)
+		SetupLoadedEditorAssemblies (2110ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1960ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (1927ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 2989ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.217 seconds
-Refreshing native plugins compatible for Editor in 20.31 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.686 seconds
+Refreshing native plugins compatible for Editor in 5.71 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.072 seconds
-Domain Reload Profiling: 2254ms
-	BeginReloadAssembly (364ms)
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 1251ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (644ms)
-		LoadAssemblies (714ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (111ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1073ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (582ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (841ms)
+		SetupLoadedEditorAssemblies (438ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (75ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (184ms)
-			ProcessInitializeOnLoadAttributes (493ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (52ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 21.38 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 10.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1971 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (45.9 KB). Loaded Objects now: 2445.
-Memory consumption went from 105.1 MB to 105.0 MB.
-Total: 5.072300 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.192400 ms MarkObjects: 4.450600 ms  DeleteObjects: 0.155600 ms)
+Memory consumption went from 105.0 MB to 105.0 MB.
+Total: 6.011900 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.065900 ms MarkObjects: 5.629600 ms  DeleteObjects: 0.146900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -188,9 +188,238 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2593.318237 seconds.
-  path: Assets/Resources/Panel/Q版水墨国风（行侠仗义五千年）
-  artifactKey: Guid(6d6add90e321ef2429b941ad1f8b0f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Panel/Q版水墨国风（行侠仗义五千年） using Guid(6d6add90e321ef2429b941ad1f8b0f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bb9b664039c1b32b05a94266a77a85') in 0.003604 seconds
+  Time since last request: 14924.347013 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/gaibang_zhangaiwu_1.png
+  artifactKey: Guid(a154020cfafb7df4f94a71a131ab23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/gaibang_zhangaiwu_1.png using Guid(a154020cfafb7df4f94a71a131ab23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3486f7e1ef5fd13602a98b4a9ed7e63') in 0.070555 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/rukou9.png
+  artifactKey: Guid(93ff39caae50fef4fb9d459021d71c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/rukou9.png using Guid(93ff39caae50fef4fb9d459021d71c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40347efdc338b5f9099939c3bd8766b1') in 0.026861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/wjtz_bg_ditu.png
+  artifactKey: Guid(4cb4d0f8284dc244a96ebcd646a3dba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/wjtz_bg_ditu.png using Guid(4cb4d0f8284dc244a96ebcd646a3dba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cc4467c2a00e8db79e50422187d200') in 0.022319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-1-2048x2048-ETC1-UIRaw_Background-14c39fbf.png
+  artifactKey: Guid(d944f57f0c61f3646a5742591ed98db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-1-2048x2048-ETC1-UIRaw_Background-14c39fbf.png using Guid(d944f57f0c61f3646a5742591ed98db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2531e76da526e3271540dc0272250c0') in 0.025825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/beijing_001.png
+  artifactKey: Guid(58644a5030452384eaeb8121f5ce2659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/beijing_001.png using Guid(58644a5030452384eaeb8121f5ce2659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21999794cfb54dd7f9b2bc183ce97ea0') in 0.028536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/shaolin_zhangaiwu_1.png
+  artifactKey: Guid(1979333542833004c86d1b8c96c71bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/shaolin_zhangaiwu_1.png using Guid(1979333542833004c86d1b8c96c71bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460bfc1f4b45d503f94453455a77aa70') in 0.019771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/xg_bg_01.png
+  artifactKey: Guid(c116916f2c3cd4341b6b76c928a1393a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/xg_bg_01.png using Guid(c116916f2c3cd4341b6b76c928a1393a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ae0cf26d1fa03a557b85fc8d364ac8') in 0.018766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/shaolin_dibiao_rightTop.png
+  artifactKey: Guid(c9ad2385de6c1e940b5151769fb2842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/shaolin_dibiao_rightTop.png using Guid(c9ad2385de6c1e940b5151769fb2842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d32ab98c5143652d445c5b3ae996f74') in 0.018748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/cp_icon_map08.png
+  artifactKey: Guid(2be3d693bfa4c5d49aee9680d284799a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/cp_icon_map08.png using Guid(2be3d693bfa4c5d49aee9680d284799a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0222a2f05be24ccb9c51393d3c5fac7') in 0.018245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x256-ETC2-Textures_MapItem_huashan-f5c8d465.png
+  artifactKey: Guid(e14bac689f0711745a1a989d0b1b4574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x256-ETC2-Textures_MapItem_huashan-f5c8d465.png using Guid(e14bac689f0711745a1a989d0b1b4574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1b41170d5b052f153eb19aea6225f9') in 0.017223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/ljqd_img_beijing.png
+  artifactKey: Guid(11ab63ffd8507824db0e9b7d3ce577d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/ljqd_img_beijing.png using Guid(11ab63ffd8507824db0e9b7d3ce577d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71925160727963ea683ae00695a1459f') in 0.019996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/jq_bg_001.png
+  artifactKey: Guid(7aa6753901627e9498b6a1baddd39a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/jq_bg_001.png using Guid(7aa6753901627e9498b6a1baddd39a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08495f389acbd0361aab081b8b072802') in 0.020345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-2048x2048-ETC2-UIRaw_LevelIcon-d1e22926.png
+  artifactKey: Guid(36fe0e2c60fb09d47a29fb266104591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-2048x2048-ETC2-UIRaw_LevelIcon-d1e22926.png using Guid(36fe0e2c60fb09d47a29fb266104591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4091023de72028e10cbe8fddff2852') in 0.040573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-7-2048x2048-ETC1-UIRaw_Background-14c39fbf.png
+  artifactKey: Guid(8de32a626c6ef694483eaeff9910bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-7-2048x2048-ETC1-UIRaw_Background-14c39fbf.png using Guid(8de32a626c6ef694483eaeff9910bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a31970f11ebf816962ecc1b0474cba7') in 0.018777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x256-ETC2-Textures_MapItem_taohuagu-e261b575.png
+  artifactKey: Guid(15a886aae1e386b4aa2e09e2de767803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x256-ETC2-Textures_MapItem_taohuagu-e261b575.png using Guid(15a886aae1e386b4aa2e09e2de767803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aceb688e7a7ec2789be73ed193dc6cb8') in 0.016900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-5-2048x2048-ETC1-UIRaw_Background-14c39fbf.png
+  artifactKey: Guid(3ebc18fcbe9a8e04d9737ee3f832faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-5-2048x2048-ETC1-UIRaw_Background-14c39fbf.png using Guid(3ebc18fcbe9a8e04d9737ee3f832faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32585c719e3a505f041f191b20b812e') in 0.018668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/cp_icon_map09.png
+  artifactKey: Guid(ca8964ddccd01654e9e94e2a4be69725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/cp_icon_map09.png using Guid(ca8964ddccd01654e9e94e2a4be69725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905be8d0f2e2b052c2f16c85c3f79ee0') in 0.017292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/rukou8.png
+  artifactKey: Guid(1db5ee07a082eb740be8b4f135158d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/rukou8.png using Guid(1db5ee07a082eb740be8b4f135158d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7c0ae0106cd62a82612251dc8433da') in 0.018721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x512-ETC2-Textures_MapItem_gaibang-442ee95c.png
+  artifactKey: Guid(2266d6f4baed7a84f9df36a09fea967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x512-ETC2-Textures_MapItem_gaibang-442ee95c.png using Guid(2266d6f4baed7a84f9df36a09fea967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68064c3806013a03ca7a9ab706aba2c') in 0.016217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/cp_icon_map05.png
+  artifactKey: Guid(24ba2171cf1ddb8459b1ed5727de3535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/cp_icon_map05.png using Guid(24ba2171cf1ddb8459b1ed5727de3535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57458ef3019ae067a036fab374e60fc') in 0.017951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-2048x2048-ETC2-Textures_Map_emeipai-0a19742a.png
+  artifactKey: Guid(d8b7919f3881e7846b68639602ca3ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-2048x2048-ETC2-Textures_Map_emeipai-0a19742a.png using Guid(d8b7919f3881e7846b68639602ca3ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19d127ee41127e0445525ae85042111') in 0.020453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-1024x1024-ETC2-Textures_Map_taohuagu-e89a3960.png
+  artifactKey: Guid(3198583515570764088d6a2d18aee6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-1024x1024-ETC2-Textures_Map_taohuagu-e89a3960.png using Guid(3198583515570764088d6a2d18aee6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598024ab6a3d4475d3d9e31b649f587e') in 0.018254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-1024x2048-ETC2-Textures_Map_zjzd-1ce23dc8.png
+  artifactKey: Guid(264a7209618ccf845b29bfa92a7e3e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-1024x2048-ETC2-Textures_Map_zjzd-1ce23dc8.png using Guid(264a7209618ccf845b29bfa92a7e3e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e6f41aa786eca35a6b655f83fae622') in 0.021143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/jj_bg_03.png
+  artifactKey: Guid(8fc16220d465b444ab2b1001251c0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/jj_bg_03.png using Guid(8fc16220d465b444ab2b1001251c0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c856cd4b8090f95373b044c8bd6d60') in 0.018430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x256-ETC2-Textures_MapItem_gumupai-a0b9bc49.png
+  artifactKey: Guid(e00ff81b1ccdc5c418f0a229cb6a404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/sactx-0-256x256-ETC2-Textures_MapItem_gumupai-a0b9bc49.png using Guid(e00ff81b1ccdc5c418f0a229cb6a404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0011722caa1f3b748aabcc70ee4b2472') in 0.020854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/emeipai_dibiao.png
+  artifactKey: Guid(af0bae6026513684d852407801ac426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/emeipai_dibiao.png using Guid(af0bae6026513684d852407801ac426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd138196d96cccb00d4ca20fc5979443') in 0.018204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/emeipai_zhangaiwu_1.png
+  artifactKey: Guid(68723c293b79b674d9e6f3f76fb8f2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/场景背景/emeipai_zhangaiwu_1.png using Guid(68723c293b79b674d9e6f3f76fb8f2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172fb576fee9dd11793ef577490f97d') in 0.021456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 50.586084 seconds.
+  path: Assets/Resources/Panel/BGUIManager.prefab
+  artifactKey: Guid(030b35a0ede164143b1cdfc4ec252622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Panel/BGUIManager.prefab using Guid(030b35a0ede164143b1cdfc4ec252622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c141f928f2c5d08b6ff521b9c4d25102') in 0.017705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 64.017639 seconds.
+  path: Assets/Samples/Space Shooter/GameRes/UIPanelArt/LOGO.png
+  artifactKey: Guid(42476ac708102b546a90a57a41da5aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Space Shooter/GameRes/UIPanelArt/LOGO.png using Guid(42476ac708102b546a90a57a41da5aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eb95afd55f49bd2eb9b47129626a25') in 0.052475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �����߳��˳���Ӧ�ó�����������ֹ I/O ������
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
