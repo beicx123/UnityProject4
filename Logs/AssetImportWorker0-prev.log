@@ -1,0 +1,713 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15557 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/UnityProject4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57687
+Successfully changed project path to: D:/Unity/UnityProject4
+D:/Unity/UnityProject4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [63736] Host "[IP] 172.31.176.1 [Port] 0 [Flags] 2 [Guid] 3831419185 [EditorId] 3831419185 [Version] 1048832 [Id] WindowsEditor(7,ICON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [63736] Host "[IP] 172.31.176.1 [Port] 0 [Flags] 2 [Guid] 3831419185 [EditorId] 3831419185 [Version] 1048832 [Id] WindowsEditor(7,ICON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 16.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/UnityProject4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7270
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.025673 seconds.
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 503 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1278ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (796ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (627ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.643 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1210ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (74ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 9.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1971 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (45.5 KB). Loaded Objects now: 2445.
+Memory consumption went from 105.0 MB to 105.0 MB.
+Total: 2.909200 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.054700 ms MarkObjects: 2.562900 ms  DeleteObjects: 0.115000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 668617.589917 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_zs.png
+  artifactKey: Guid(423e6789dc1510f408290336df58b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cf_img_zs.png using Guid(423e6789dc1510f408290336df58b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e3e48ed1f8dd8fbda0b8e4aa6f2df2') in 0.080526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/baoxiang.png
+  artifactKey: Guid(454f0b48434f9944abcc3d670c35d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/baoxiang.png using Guid(454f0b48434f9944abcc3d670c35d0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b6bc6416bd7fb75b3ab12e08e5331c') in 0.020955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_02.png
+  artifactKey: Guid(4da3a32b554268b4fa89c3f114462a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/cj_img_02.png using Guid(4da3a32b554268b4fa89c3f114462a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6ee188ff11150e443a011bddc7be48') in 0.025008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_blue_circle.png
+  artifactKey: Guid(43d4b05bb9449fb4e848a095745b7a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_blue_circle.png using Guid(43d4b05bb9449fb4e848a095745b7a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d490b8f8704894b3e7cbc2d6c2b0307') in 0.022988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.531249 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zq_img_001.png
+  artifactKey: Guid(1b4319381e19f3e47a93f0ee46e3b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zq_img_001.png using Guid(1b4319381e19f3e47a93f0ee46e3b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5160498b035cbe7ce94c4f4c9250b5de') in 0.020406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045550 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_btn.png
+  artifactKey: Guid(31eec3a42e7102140b4569a12abd57f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_btn.png using Guid(31eec3a42e7102140b4569a12abd57f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea2a3ebfa6190b0adf0b9008daef25c') in 0.028046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.210934 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_board_jindu_04.png
+  artifactKey: Guid(e7ad5f13de775c046a3f248b90363d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_board_jindu_04.png using Guid(e7ad5f13de775c046a3f248b90363d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28f1ced9dc428436cc2854890905c4d') in 0.019175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024738 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_board_jindu.png
+  artifactKey: Guid(9ce05b26cb56b1844b55f0af0c9d5312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_board_jindu.png using Guid(9ce05b26cb56b1844b55f0af0c9d5312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f623d583f21151511baaf5f9c3ae4567') in 0.020274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.352324 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_board_jiaobiao.png
+  artifactKey: Guid(3dd6401540f40fd4785344cc92127776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zp_board_jiaobiao.png using Guid(3dd6401540f40fd4785344cc92127776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3127a0e73c713c93f1ba79e1c6e3e2e9') in 0.018160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041623 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zlc_bk_006.png
+  artifactKey: Guid(8e6909e1d3527fd45aa4d38891c03e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zlc_bk_006.png using Guid(8e6909e1d3527fd45aa4d38891c03e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62066b79cdafae469f7c0660abbabc32') in 0.017581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.315255 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_tab_nor.png
+  artifactKey: Guid(ee7b3927c2cb04144a03e9d7b9370334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_tab_nor.png using Guid(ee7b3927c2cb04144a03e9d7b9370334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205ce0d40ed5315f9f52100b6d5ed35') in 0.018677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.283060 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_img_inkmask.png
+  artifactKey: Guid(8ab4a91b899e5c3449f714744af392fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_img_inkmask.png using Guid(8ab4a91b899e5c3449f714744af392fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd023e0fcc2ee742b8f7e214b1e4785f6') in 0.018255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_zhanli_01.png
+  artifactKey: Guid(b57e9149cc6b53a4c94bccbe8d271e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_zhanli_01.png using Guid(b57e9149cc6b53a4c94bccbe8d271e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639cdb65e22ffc347cf17a62d81dfc27') in 0.017446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004784 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_youjian.png
+  artifactKey: Guid(831559ca9907ca84095538cb6b8959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_youjian.png using Guid(831559ca9907ca84095538cb6b8959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3f0d1738f07561b325cfa8f8f1b0f2') in 0.018929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002184 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_yeqian_weixuanzhong_fangshi.png
+  artifactKey: Guid(db494e4a20ffe2645bde28fbec660e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_yeqian_weixuanzhong_fangshi.png using Guid(db494e4a20ffe2645bde28fbec660e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411fa4873a55a32de349e78c5f2f9051') in 0.018076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.251269 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_tujian.png
+  artifactKey: Guid(750253166fbcf744282196f70b0f0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_tujian.png using Guid(750253166fbcf744282196f70b0f0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22c25d58767cc580b3806b0561870c9') in 0.019097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017494 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_paihang.png
+  artifactKey: Guid(029d33a38b44f2f40a79b9eca1cf1bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_paihang.png using Guid(029d33a38b44f2f40a79b9eca1cf1bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e88458d5d4445d1c714f9a3c32e89bf') in 0.016993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005295 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_huodong.png
+  artifactKey: Guid(a5bd7c4982d9e664eb60cdffca759b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_huodong.png using Guid(a5bd7c4982d9e664eb60cdffca759b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5aef3681a453fe44ed5635ceaee501') in 0.020512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 96.058425 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_chengjiu.png
+  artifactKey: Guid(dcd42498c8e1b234a80de8b76ff45690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_icon_chengjiu.png using Guid(dcd42498c8e1b234a80de8b76ff45690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7020bbf817b8d7304e2043b0e430fd') in 0.031982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.500587 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_btn_zd_pre.png
+  artifactKey: Guid(eb417740681db314fb05bb85c47ea4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_btn_zd_pre.png using Guid(eb417740681db314fb05bb85c47ea4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9125e2b7899545583cd91e3dc6da2c85') in 0.032982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.111001 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_btn_wx_pre.png
+  artifactKey: Guid(8907af6387bf4774688133baba8528e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_btn_wx_pre.png using Guid(8907af6387bf4774688133baba8528e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e3a31eb49df1b95c17063fbbb75f6d') in 0.018001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.543719 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_btn_tiaozhan.png
+  artifactKey: Guid(5a0438489683d774cb7320926f8c3938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/zjm_btn_tiaozhan.png using Guid(5a0438489683d774cb7320926f8c3938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b02bcbfddb36ffb134f706802f03298') in 0.019696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 288.175405 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_itemname.png
+  artifactKey: Guid(198234123467a544995a5f09615e0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_itemname.png using Guid(198234123467a544995a5f09615e0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3a58bb4159309b39759d532977b5cc') in 0.016795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.776887 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_jiaobiao_kezhuangbei.png
+  artifactKey: Guid(c61b24020b84ac34197870c3e5885347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_jiaobiao_kezhuangbei.png using Guid(c61b24020b84ac34197870c3e5885347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b806008a5490615a4c8e37e02acbbdc5') in 0.019075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_jiaobiao_shuzhi.png
+  artifactKey: Guid(1172dcc66a0f81a4c92f34704b44f82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_jiaobiao_shuzhi.png using Guid(1172dcc66a0f81a4c92f34704b44f82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027215acbc386c5f9557e663c5e0e6ab') in 0.023508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.319503 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_pmd.png
+  artifactKey: Guid(2778e53289b0ea14094e4e64bc26abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_pmd.png using Guid(2778e53289b0ea14094e4e64bc26abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a646a39f513bf0c652103b05c8d81a57') in 0.018167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_cai.png
+  artifactKey: Guid(10217f25e6a16784b8e00ec3a362ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_cai.png using Guid(10217f25e6a16784b8e00ec3a362ce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6c7d07d36384b6a52c9164c2ddcb3d') in 0.035489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009997 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_mask.png
+  artifactKey: Guid(7679bea9809920a4cbc8a95dd6175fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_mask.png using Guid(7679bea9809920a4cbc8a95dd6175fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83094f2c7154514835cdc700928bb85d') in 0.015777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.336705 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_purple.png
+  artifactKey: Guid(ae9de2db3eb56874ca8c8232da721e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_purple.png using Guid(ae9de2db3eb56874ca8c8232da721e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dd3be9cbeda51d30e8efda0c84718b') in 0.017494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_white.png
+  artifactKey: Guid(be78ccd1868f6f1468963757e2d80440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_quality_white.png using Guid(be78ccd1868f6f1468963757e2d80440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c180c8ca78da1ec46e8d16a0c62559fb') in 0.017639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.355744 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_tipsarea.png
+  artifactKey: Guid(26982a2ddcd46774f9c2d3a3504c9a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_tipsarea.png using Guid(26982a2ddcd46774f9c2d3a3504c9a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941f862a5f3d8b346662faf9df1b2fcd') in 0.019998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_01.png
+  artifactKey: Guid(53ef88c989c10884da3846a56c9aa672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_01.png using Guid(53ef88c989c10884da3846a56c9aa672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034bdfd5a885c45aa141208c88cc4d6c') in 0.034189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013905 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_jindu_03.png
+  artifactKey: Guid(1e3cad94a7a158a40b50bd3d928d24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_top_jindu_03.png using Guid(1e3cad94a7a158a40b50bd3d928d24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fec2acdddc97b0bdd2ca8782b5afe2') in 0.016991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_00.png
+  artifactKey: Guid(0f8a8fb3eab463d43b430fdb611ffd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_00.png using Guid(0f8a8fb3eab463d43b430fdb611ffd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44861895e51e866bdb5edfb89fb29b64') in 0.024495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.545165 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_02.png
+  artifactKey: Guid(4860e31bb34644e4f8c9a62ffb95c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_02.png using Guid(4860e31bb34644e4f8c9a62ffb95c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fa28a0a0d1a15270140e3b41970f60') in 0.020175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_biaoti_01.png
+  artifactKey: Guid(2d4c0a7fb9fa15a4cb53fcaeb1c81867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_biaoti_01.png using Guid(2d4c0a7fb9fa15a4cb53fcaeb1c81867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e824119e472d27f37e17ce8caada5a') in 0.015182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007329 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_zs_01.png
+  artifactKey: Guid(4fc55b227ea0d4f43a119ac532ffe478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_board_xinxi_zs_01.png using Guid(4fc55b227ea0d4f43a119ac532ffe478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec5fbf040169f3f7d86eb6b821f0234') in 0.045629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019232 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_arrow.png
+  artifactKey: Guid(cabf17cc113b8894f9d468b5b3000872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_arrow.png using Guid(cabf17cc113b8894f9d468b5b3000872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebda9432f333dbd28ce0562845cc2c2') in 0.022889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_back.png
+  artifactKey: Guid(25695a26ad48d7f4784328ffd2fa647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_back.png using Guid(25695a26ad48d7f4784328ffd2fa647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2d102e5fef7bcc0fd3074d30bfdc66') in 0.024685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.272288 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_big_yellow.png
+  artifactKey: Guid(67b16b8a13ab92245a526bce810c06e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_big_yellow.png using Guid(67b16b8a13ab92245a526bce810c06e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e1fac47b85d079203be259d866c38b') in 0.017079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_guanbi.png
+  artifactKey: Guid(da76b53d713842b4eb3fe3228efd3435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_guanbi.png using Guid(da76b53d713842b4eb3fe3228efd3435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c0898d41f456f8804eee9d0db6f709') in 0.040915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013544 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_median_green #114275.png
+  artifactKey: Guid(680960f9e6f7bd24aba7ba01a9ab6751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_median_green #114275.png using Guid(680960f9e6f7bd24aba7ba01a9ab6751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d4264a9aed7a3a530d7620efec14bb') in 0.029691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_median_yellow.png
+  artifactKey: Guid(0f558e0c194f2984ebbba3e65c0f6fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_median_yellow.png using Guid(0f558e0c194f2984ebbba3e65c0f6fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e62f840d6145931f890203c8b93a162') in 0.018630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_small_green.png
+  artifactKey: Guid(fadc82dc753e6894d982fb1c5f7121aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_small_green.png using Guid(fadc82dc753e6894d982fb1c5f7121aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c4b964c8b87b7fccbfd0a4ba55c2d8') in 0.019953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_minimum_green.png
+  artifactKey: Guid(cce2036f83677db47a4cc6aaa6960ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_minimum_green.png using Guid(cce2036f83677db47a4cc6aaa6960ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55af62571142e94831e041f62650b66f') in 0.024801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_refresh.png
+  artifactKey: Guid(fce87dc800c70fe4a87c53c8dbb8b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_refresh.png using Guid(fce87dc800c70fe4a87c53c8dbb8b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a0f965f91d057211191f657297cf67') in 0.020209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.230849 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_small_yellow.png
+  artifactKey: Guid(848d2135940febb41ac469657e373376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_small_yellow.png using Guid(848d2135940febb41ac469657e373376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bceefaed506daaf4893a4489fd8c55') in 0.015487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_yellow_1.png
+  artifactKey: Guid(cb2644ecc659fed44becf9f64866be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_btn_yellow_1.png using Guid(cb2644ecc659fed44becf9f64866be34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566c4c2c48beab45aac737f13d03b890') in 0.015206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037490 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_green_circle.png
+  artifactKey: Guid(b48af60e08cc9e64d9619d1e244e6d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_green_circle.png using Guid(b48af60e08cc9e64d9619d1e244e6d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661fafd3e58aed392c5108480b4254d7') in 0.015557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_lb.png
+  artifactKey: Guid(8b8b6d92434b1bc4685cfd4afeafd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_lb.png using Guid(8b8b6d92434b1bc4685cfd4afeafd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d08e1e00f376c8ef4bb9d954103a619') in 0.017922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_b_add.png
+  artifactKey: Guid(f61db27506333cc42a516035d29588a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_b_add.png using Guid(f61db27506333cc42a516035d29588a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2a69b646b73d6c4602730c1cbd0e53') in 0.019952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_djts.png
+  artifactKey: Guid(f87ca8f1088a0e240a75381eda8bf8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_djts.png using Guid(f87ca8f1088a0e240a75381eda8bf8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b278f21dc52cb9009a49e40122306ac8') in 0.018158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_lock_big.png
+  artifactKey: Guid(a0dfb89ed10774e4db4c2569266fbcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_lock_big.png using Guid(a0dfb89ed10774e4db4c2569266fbcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a567b086e7ba5b64703973a8f2452cdf') in 0.031585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_jiantou_01.png
+  artifactKey: Guid(b4c596f8cf1483c43a234872fd4db36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_jiantou_01.png using Guid(b4c596f8cf1483c43a234872fd4db36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046c3520c2931630e9d8e037e232ed60') in 0.020462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.254624 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_onlock.png
+  artifactKey: Guid(f9c49ec2e477a5a428ba3ef51d7de06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_onlock.png using Guid(f9c49ec2e477a5a428ba3ef51d7de06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd07777d8c602c42e1d34742aaa170b') in 0.016705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_top_add.png
+  artifactKey: Guid(66e00d572dc0d8e48a6e36500b14b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_top_add.png using Guid(66e00d572dc0d8e48a6e36500b14b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7a4f36c40a8c5ceceacd6c3144a6ae') in 0.014820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_wenben_add.png
+  artifactKey: Guid(6aa476b08136f1a4a824e1e4fbcc1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_wenben_add.png using Guid(6aa476b08136f1a4a824e1e4fbcc1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e811e3c7b2fb8e8ecbb25e65e8900626') in 0.025597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_wenben_arrow.png
+  artifactKey: Guid(d5993007395736c4fbaf1b9b7b5c0ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_icon_wenben_arrow.png using Guid(d5993007395736c4fbaf1b9b7b5c0ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d19eba3478276416f79efea8c60b59') in 0.020681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_gkm.png
+  artifactKey: Guid(cbf6630a9602021498a053d2de02b257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_gkm.png using Guid(cbf6630a9602021498a053d2de02b257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9001488634e5275a69121c46f3a4d957') in 0.020960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_gou.png
+  artifactKey: Guid(17ee3d7ef24848542a37ed1a5e5871dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_gou.png using Guid(17ee3d7ef24848542a37ed1a5e5871dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e69bc720f279f2a45ef032b47767d04') in 0.019809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_girl.png
+  artifactKey: Guid(fa81d7bfc551a154f99f0716862fdc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_girl.png using Guid(fa81d7bfc551a154f99f0716862fdc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3280a278722a7db1c84a7207d7f3b1d9') in 0.023301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.192261 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_jsxgk.png
+  artifactKey: Guid(2aeb34ae74b877b418a64154b005ade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_jsxgk.png using Guid(2aeb34ae74b877b418a64154b005ade8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198a111887a9cbebb95bdcf92ad008b8') in 0.041220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_neirong.png
+  artifactKey: Guid(4d523fb1fccfd35469cf5b4143a6ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_neirong.png using Guid(4d523fb1fccfd35469cf5b4143a6ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9fd6e2328359dd7f99e5d999f3622a') in 0.030419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_line_01.png
+  artifactKey: Guid(0b5492d5b15910c4786c07e5ac2c73d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_line_01.png using Guid(0b5492d5b15910c4786c07e5ac2c73d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cf4dd943571ba1f32c1ac7225b2776') in 0.021264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_line.png
+  artifactKey: Guid(d26393f392f76384198a095ba93ba3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Q版水墨国风（行侠仗义五千年）/UI界面/common_img_line.png using Guid(d26393f392f76384198a095ba93ba3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29b7a4c809e077843477d12cf29686a') in 0.019516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �����߳��˳���Ӧ�ó�����������ֹ I/O ������
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
